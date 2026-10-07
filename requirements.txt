@@ -1,9 +1,8 @@
-# Đủ cho topic A, C (phần perturb + projection), E, F. Chạy CPU, không cần GPU.
+# Topics A, C (perturbation + projection), E, F. CPU only, no GPU.
 numpy>=1.24
 opencv-python>=4.8
 matplotlib>=3.7
 pandas>=2.0
 
-# Topic D (robot/drone obstacle): pip install open3d>=0.18
-# Topic B/C (detector): dùng môi trường riêng theo hướng dẫn MMDetection3D hoặc OpenPCDet,
-# KHÔNG cài chung vào môi trường này (dễ vỡ phiên bản torch/CUDA).
+# Topic D (robot/drone obstacle): install open3d separately if needed.
+# Topic B/C (detector): use a separate environment following MMDetection3D or OpenPCDet instructions.
