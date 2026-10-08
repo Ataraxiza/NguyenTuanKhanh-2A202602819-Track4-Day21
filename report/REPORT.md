@@ -14,7 +14,7 @@
 
 ## 1. Claim
 
-Một câu khẳng định kỹ thuật có thể kiểm chứng. Ví dụ: *"Lệch yaw 1° làm 12% điểm LiDAR rơi ra khỏi vật thể ở 30 m, phát hiện được bằng edge-alignment score với ngưỡng X."*
+Một câu khẳng định kỹ thuật có thể kiểm chứng. Ví dụ: *"Lệch yaw 1° làm 12% điểm LiDAR rơi ra khỏi vật thể ở 30 m, phát hiện được bằng edge-alignment score với ngưỡng X."* 
 
 Giả thuyết: Trên ít nhất 2/3 frame 000011, 000001 và 000004, lệch yaw 2° làm tỷ lệ điểm LiDAR chiếu vào bbox 2D của đối tượng mục tiêu (trên tổng điểm chiếu hợp lệ trong ảnh) giảm ít nhất 20 điểm phần trăm so với calibration gốc; ngưỡng phát hiện là mức giảm ≥20 điểm phần trăm.
 
