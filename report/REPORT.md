@@ -8,7 +8,7 @@
 - **Link repo:** https://github.com/Ataraxiza/NguyenTuanKhanh-2A202602819-Track4-Day21
 - **Topic:** A — Kiểm tra calibration LiDAR-camera
 - **Dataset:** data/kitti_mini
-- **Các frame đã dùng:** 000011 (nhiều người đi bộ), 000001 (có cyclist), 000004 (xe xa hơn 50 m)
+- **Các frame đã dùng:** 000015 (nhiều người đi bộ), 000001 (có cyclist), 000004 (xe xa hơn 50 m)
 
 > Hãy viết ngắn: mỗi mục từ 3 đến 8 dòng, ưu tiên số liệu và hình ảnh.
 
@@ -47,7 +47,10 @@ Use-case cụ thể (ADAS / robot / drone), trade-off và bước tiếp theo.
 Các lệnh tái tạo lại toàn bộ kết quả từ repo sạch.
 
 ```bash
-[ĐIỀN]
+python -m starter.projection --data-root data/kitti_mini --frame 000015
+python -m starter.projection --data-root data/kitti_mini --frame 000001
+python -m starter.projection --data-root data/kitti_mini --frame 000004
+
 ```
 
 ## 6. Khai báo sử dụng AI
